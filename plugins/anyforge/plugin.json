@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "anyforge",
+  "description": "Read and update AnyForge work items, initiatives, crews and approvals from Copilot, and link your pull requests to the work they deliver.",
+  "version": "1.0.0",
+  "author": {
+    "name": "AnyForge",
+    "url": "https://anyforge.ai"
+  },
+  "homepage": "https://anyforge.ai/docs?page=github-copilot",
+  "repository": "https://github.com/tiaanduplessis/anyforge-copilot-plugin",
+  "license": "Apache-2.0",
+  "keywords": ["anyforge", "mcp", "work-items", "approvals", "crews"]
+}

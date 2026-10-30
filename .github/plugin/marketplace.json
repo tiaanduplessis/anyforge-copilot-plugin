@@ -1,0 +1,26 @@
+{
+  "name": "anyforge",
+  "metadata": {
+    "description": "AnyForge for GitHub Copilot: the hosted AnyForge MCP server and a skill for delivering AnyForge work items.",
+    "version": "1.0.0"
+  },
+  "owner": {
+    "name": "AnyForge"
+  },
+  "plugins": [
+    {
+      "name": "anyforge",
+      "description": "Read and update AnyForge work items, initiatives, crews and approvals from Copilot, and link your pull requests to the work they deliver.",
+      "version": "1.0.0",
+      "author": {
+        "name": "AnyForge",
+        "url": "https://anyforge.ai"
+      },
+      "homepage": "https://anyforge.ai/docs?page=github-copilot",
+      "repository": "https://github.com/tiaanduplessis/anyforge-copilot-plugin",
+      "license": "Apache-2.0",
+      "keywords": ["anyforge", "mcp", "work-items", "approvals", "crews"],
+      "source": "./plugins/anyforge"
+    }
+  ]
+}
