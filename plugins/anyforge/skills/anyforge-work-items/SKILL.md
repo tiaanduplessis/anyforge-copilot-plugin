@@ -43,17 +43,19 @@ changing the scope.
 ## Link the pull request
 
 AnyForge links a pull request to every work item code it names and keeps the
-link current as the pull request moves:
+link current as the pull request moves. Where the code appears decides whether
+the item moves:
 
-- Start the branch name with the code: `eng-42-refund-retries`.
-- Put the code in the pull request title: `ENG-42: Retry failed refunds`.
-- Write `Closes ENG-42` in the description when this pull request finishes
-  the item, or `Part of ENG-42` when it is one step of it.
+- **This pull request finishes the item.** Start the branch name with the code
+  (`eng-42-refund-retries`), put it in the title (`ENG-42: Retry failed
+  refunds`), and write `Closes ENG-42` in the description. When the workspace
+  syncs pull request status, the item starts when the pull request is ready
+  for review and completes when it merges.
+- **This pull request is one step of the item.** Keep the code out of the
+  branch name and the title, and write `Part of ENG-42` in the description
+  only. A code in the branch name or title always counts as finishing the item.
 
-When the workspace syncs pull request status, marking the pull request ready
-for review starts a not-started item, and merging it completes the item.
-`Part of` links without moving the item. An item a crew is running is never
-moved by your pull request.
+An item a crew is running is never moved by your pull request.
 
 ## Write to AnyForge only when asked
 

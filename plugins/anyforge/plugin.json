@@ -2,7 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "anyforge",
   "description": "Read and update AnyForge work items, initiatives, crews and approvals from Copilot, and link your pull requests to the work they deliver.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "AnyForge",
     "url": "https://anyforge.ai"

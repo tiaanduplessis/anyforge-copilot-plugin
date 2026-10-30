@@ -2,7 +2,7 @@
   "name": "anyforge",
   "metadata": {
     "description": "AnyForge for GitHub Copilot: the hosted AnyForge MCP server and a skill for delivering AnyForge work items.",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   "owner": {
     "name": "AnyForge"
@@ -11,7 +11,7 @@
     {
       "name": "anyforge",
       "description": "Read and update AnyForge work items, initiatives, crews and approvals from Copilot, and link your pull requests to the work they deliver.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "AnyForge",
         "url": "https://anyforge.ai"
